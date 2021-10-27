@@ -3,7 +3,7 @@
 # Binary search only works when the list that is passed is sorted.
 
 # BIG O NOTATION
-# Logarithmic: O(log N)
+# Logarithmic: O(log n)
 
 # DESCRIPTION
 # binary_search takes a sorted list and the item we are looking for as parameters.
