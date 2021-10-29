@@ -1,11 +1,11 @@
-# STRATEGY
+# DESCRIPTION AND STRATEGY
 # With binary search, you guess in the middle and eliminate half the remaining options every iteration.
 # Binary search only works when the list that is passed is sorted.
 
 # BIG O NOTATION
 # Logarithmic: O(log n)
 
-# DESCRIPTION
+# CODE
 # binary_search takes a sorted list and the item we are looking for as parameters.
 # In this case, we are looking for an integer.
 

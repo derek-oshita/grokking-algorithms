@@ -1,4 +1,4 @@
-# STRATEGY
+# DESCRIPTION AND STRATEGY
 # Take a list of artists you listen to, for example. Each artist has an integer representing how many times you've played that artist.
 # To sort by most played, you would need to check every artist O(n), then add the highest played artist to a new list.
 # You would take that same list, now one artist shorter, and repeat that process n times until you reach the least played artist.
@@ -11,7 +11,7 @@
 # On average, you check a list that has .5 of n elements. The actual runtime is O(n x .5 x n)
 # After dropping the constant (.5), we are left with O(n * n) or O(n^2). Selection is a slow algorithm!
 
-# DESCRIPTION
+# CODE
 
 # find_smallest is a helper function that takes an array of integers and returns the index of the smallest int.
 def find_smallest(arr): 
@@ -40,7 +40,7 @@ def selection_sort(arr):
 
 some_arr = [7, 1, 3, 2, 5, 4, 0, 6]
 
-# => [0, 1, 2, 3, 4, 5, 6, 7]print(selection_sort(some_arr))
-
+print(selection_sort(some_arr))
+# => [0, 1, 2, 3, 4, 5, 6, 7]
 
         
