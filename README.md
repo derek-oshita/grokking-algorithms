@@ -1,1 +1,1 @@
-An algorithm is a set of instructions for accomplishing a task.
+A few examples of common algorithms I recorded while reading Grokking Algorithms by Aditya Bhargava.
